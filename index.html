@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="Contact form Using html And Css And Js" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.min.css" />
+    <!-- normalize css file -->
+    <link rel="stylesheet" href="css/normaliz.css" />
+
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="content">
+        <h2>Contact US</h2>
+        <form class="form">
+          <div class="first-Last" id="firstLast">
+            <div class="first-name">
+              <label for="firstNameinput">First Name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="firstNameinput"
+                class="name"
+              />
+            </div>
+            <div class="last-name">
+              <label for="lastNameinput">Last Name</label>
+              <input
+                type="text"
+                name="lastname"
+                id="lastNameinput"
+                class="name"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <label for="Email">Email Address</label>
+            <input type="text" name="email" id="Email" />
+          </div>
+          <div class="query-type">
+            <label for="">Query Type</label>
+            <div class="query">
+              <div class="">
+                <input type="radio" name="checkbox" id="radio" />
+                <label for="radio">General Enquiry</label>
+              </div>
+              <div class="">
+                <input type="radio" name="checkbox" id="radio-2" />
+                <label for="radio-2">Support Request</label>
+              </div>
+            </div>
+          </div>
+          <div class="text-area">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              style="resize: none; width: 100%"
+            ></textarea>
+          </div>
+          <div class="accepting-rules">
+            <input type="checkbox" name="accept" id="accept" />
+            <label for="accept">I consent to being contacted by the team</label>
+          </div>
+          <input type="submit" name="sumbit" id="sumbit" value="Submit" />
+        </form>
+      </div>
+      <!-- Start Fotter -->
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Ahmaddomani" target="_blank"
+          >AhmadAldomani</a
+        >.
+      </div>
+      <!-- End Fotter -->
+    </div>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
